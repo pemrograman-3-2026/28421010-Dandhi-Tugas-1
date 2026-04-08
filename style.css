@@ -5,6 +5,9 @@ body {
 
 /* Navbar */
 .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
     background: gray;
     padding: 10px;
 }
@@ -13,6 +16,7 @@ body {
     color: white;
     margin-left: 10px;
     text-decoration: none;
+    margin: 0 15px;
 }
 
 /* Home */
@@ -23,7 +27,7 @@ body {
 
 /* Section */
 #about, #work, #contact {
-    padding: 50px;
+    padding: 80px;
 }
 
 /* Card */
@@ -50,7 +54,7 @@ footer {
     padding: 15px;
 }
 
-
+/* card */
 .card a {
     display: inline-block;
     margin-top: 10px;
