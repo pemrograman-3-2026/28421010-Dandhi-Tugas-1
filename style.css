@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    background: gray;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+/* Home */
+.home {
+    text-align: center;
+    padding: 100px;
+}
+
+/* Section */
+#about, #work, #contact {
+    padding: 50px;
+}
+
+/* Card */
+.card {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* foto */
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* footer */
+footer {
+    background: gray;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: red;
+    color: white;
+    text-decoration: none;
+}
